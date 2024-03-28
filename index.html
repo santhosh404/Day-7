@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 6</title>
+
+    <style>
+        * {
+            font-family: "Roboto Mono", monospace;
+            font-size: 12px;
+        }
+
+        .container {
+            width: 600px;
+            /* height: 600px; */
+            overflow: auto;
+            margin: auto;
+            padding: 40px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            border-radius: 5px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .tasks {
+            display: flex;
+            justify-content: center;
+        }
+
+        ol>li {
+            margin: 10px auto;
+        }
+
+        li {
+            text-align: justify;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: lightgray;
+            border-radius: 10px;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="font-size: 24px;">Day 7 Tasks</h1>
+        <hr />
+        <div class="tasks">
+            <ol>
+                <li>
+                    Solving problems using array functions on rest countries data (https://restcountries.com/v3.1/all).
+                    <ol>
+                        <li>
+                            Get all the countries from Asia continent /region using Filter function.
+                        </li>
+                        <li>
+                            Get all the countries with a population of less than 2 lakhs using Filter function.
+                        </li>
+                        <li>
+                            Print the following details name, capital, flag, using forEach function.
+                        </li>
+                        <li>
+                            Print the total population of countries using reduce function.
+                        </li>
+                        <li>
+                            Print the country that uses US dollars as currency.
+                        </li>
+                    </ol>
+                </li>
+
+            </ol>
+        </div>
+        <p style="text-align: center; font-weight: bold; font-size: 16px">
+            <i>Hint: See console for the outputs</i>
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
